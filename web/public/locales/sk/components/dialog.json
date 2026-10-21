@@ -1,13 +1,13 @@
 {
   "restart": {
-    "title": "Ste si istý, že chcete reštartovať Frigate ?",
+    "title": "Ste si istý, že chcete reštartovať OrcaCommand ?",
     "button": "Reštart",
     "restarting": {
-      "title": "Frigate sa reštartuje",
+      "title": "OrcaCommand sa reštartuje",
       "content": "Táto stránka bude obnovená o {{countdown}} sekúnd.",
       "button": "Vynútiť opätovné načítanie teraz"
     },
-    "description": "Počas reštartu bude Frigate nakrátko zastavený."
+    "description": "Počas reštartu bude OrcaCommand nakrátko zastavený."
   },
   "explore": {
     "plus": {

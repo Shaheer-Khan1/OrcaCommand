@@ -1,11 +1,11 @@
 {
   "documentTitle": {
-    "cameras": "Estatísticas de cámaras - Frigate",
-    "storage": "Estatísticas de Almacenamento - Frigate",
-    "general": "Estatísticas Xerais - Frigate",
-    "enrichments": "Estatísticas complementarias - Frigate",
+    "cameras": "Estatísticas de cámaras - OrcaCommand",
+    "storage": "Estatísticas de Almacenamento - OrcaCommand",
+    "general": "Estatísticas Xerais - OrcaCommand",
+    "enrichments": "Estatísticas complementarias - OrcaCommand",
     "logs": {
-      "frigate": "Rexistros de Frigate - Frigate"
+      "frigate": "Rexistros de OrcaCommand - OrcaCommand"
     }
   },
   "title": "Sistema",

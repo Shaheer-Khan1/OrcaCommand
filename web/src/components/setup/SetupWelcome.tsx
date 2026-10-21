@@ -8,7 +8,7 @@ type SetupWelcomeProps = {
 };
 
 export default function SetupWelcome({ onNext, onSkip }: SetupWelcomeProps) {
-  const { t } = useTranslation(["views/setup"]);
+  const { t } = useTranslation(["views/setup", "common"]);
 
   return (
     <div className="flex flex-col items-center gap-6 py-4">
@@ -17,6 +17,9 @@ export default function SetupWelcome({ onNext, onSkip }: SetupWelcomeProps) {
         <h2 className="text-2xl font-semibold">
           {t("setupWizard.welcome.title")}
         </h2>
+        <p className="mt-1 text-sm text-muted-foreground">
+          {t("brand.owner", { ns: "common" })}
+        </p>
         <p className="mt-2 text-muted-foreground">
           {t("setupWizard.welcome.description")}
         </p>

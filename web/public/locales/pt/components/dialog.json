@@ -2,12 +2,12 @@
   "restart": {
     "button": "Reiniciar",
     "restarting": {
-      "title": "Frigate está a reiniciar",
+      "title": "OrcaCommand está a reiniciar",
       "content": "Esta página será recarregada em {{countdown}} segundos.",
       "button": "Forçar Recarregar Agora"
     },
-    "title": "Tem a certeza que deseja reiniciar o Frigate?",
-    "description": "Isto irá parar brevemente o Frigate enquanto reinicia."
+    "title": "Tem a certeza que deseja reiniciar o OrcaCommand?",
+    "description": "Isto irá parar brevemente o OrcaCommand enquanto reinicia."
   },
   "explore": {
     "plus": {

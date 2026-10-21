@@ -62,7 +62,7 @@
       "context": "Selausta voidaan käyttää sen jälkeen kun seurattavien kohteiden uudelleenindeksöinti on valmistunut."
     },
     "downloadingModels": {
-      "context": "Frigate lataa semanttista hakua varten vaadittavat upotusmallit. Tämä saattaa viedä useamman minuutin, riippuen yhteytesi nopeudesta.",
+      "context": "OrcaCommand lataa semanttista hakua varten vaadittavat upotusmallit. Tämä saattaa viedä useamman minuutin, riippuen yhteytesi nopeudesta.",
       "setup": {
         "visionModel": "Vision-malli",
         "textModel": "Tekstimalli",
@@ -72,7 +72,7 @@
       "tips": {
         "context": "Saatat haluta uudelleenindeksoida seurattavien kohteiden upotukset, kun mallit on ladattu."
       },
-      "error": "Tapahtui virhe. Tarkista Frigaten lokit."
+      "error": "Tapahtui virhe. Tarkista OrcaCommandn lokit."
     }
   },
   "exploreMore": "Selaa lisää {{label}}-tyyppisiä kohteita",

@@ -8,14 +8,14 @@
     "detectIsVerySlow": "{{detect}} איטי מאוד ({{speed}} אלפיות שנייה)"
   },
   "documentTitle": {
-    "cameras": "מצב מצלמות - Frigate",
-    "storage": "מצב אחסון - Frigate",
-    "general": "סטטיסטיקה כללית - Frigate",
-    "enrichments": "סטטיסטיקת העשרה - Frigate",
+    "cameras": "מצב מצלמות - OrcaCommand",
+    "storage": "מצב אחסון - OrcaCommand",
+    "general": "סטטיסטיקה כללית - OrcaCommand",
+    "enrichments": "סטטיסטיקת העשרה - OrcaCommand",
     "logs": {
-      "frigate": "לוגים - Frigate",
-      "go2rtc": "לוגים - Go2RTC - Frigate",
-      "nginx": "לוגים - Nginx - Frigate"
+      "frigate": "לוגים - OrcaCommand",
+      "go2rtc": "לוגים - Go2RTC - OrcaCommand",
+      "nginx": "לוגים - Nginx - OrcaCommand"
     }
   },
   "title": "מערכת",
@@ -133,7 +133,7 @@
       "bandwidth": "רוחב פס",
       "unused": {
         "title": "לא בשימוש",
-        "tips": "ייתכן שערך זה לא מייצג במדויק את השטח הפנוי הזמין ל-Frigate אם יש לך קבצים אחרים המאוחסנים בכונן שלך מעבר להקלטות של Frigate. Frigate אינו עוקב אחר ניצול האחסון מלבד להקלטות שלו."
+        "tips": "ייתכן שערך זה לא מייצג במדויק את השטח הפנוי הזמין ל-OrcaCommand אם יש לך קבצים אחרים המאוחסנים בכונן שלך מעבר להקלטות של OrcaCommand. OrcaCommand אינו עוקב אחר ניצול האחסון מלבד להקלטות שלו."
       },
       "title": "אחסון מצלמה",
       "camera": "מצלמה",
@@ -144,7 +144,7 @@
     "recordings": {
       "title": "הקלטות",
       "earliestRecording": "ההקלטה המוקדמת ביותר הזמינה:",
-      "tips": "ערך זה מייצג את סך האחסון בו משתמשים ההקלטות במסד הנתונים של Frigate. Frigate אינו עוקב אחר ניצול האחסון עבור כל הקבצים בדיסק שלך."
+      "tips": "ערך זה מייצג את סך האחסון בו משתמשים ההקלטות במסד הנתונים של OrcaCommand. OrcaCommand אינו עוקב אחר ניצול האחסון עבור כל הקבצים בדיסק שלך."
     },
     "shm": {
       "title": "הקצאת SHM (זיכרון משותף)",

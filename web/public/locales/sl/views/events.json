@@ -16,10 +16,10 @@
     }
   },
   "recordings": {
-    "documentTitle": "Posnetki - Frigate"
+    "documentTitle": "Posnetki - OrcaCommand"
   },
   "camera": "Kamera",
-  "documentTitle": "Pregled - Frigate",
+  "documentTitle": "Pregled - OrcaCommand",
   "alerts": "Opozorila",
   "detections": "Zaznave",
   "motion": {

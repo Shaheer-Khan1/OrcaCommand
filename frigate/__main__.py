@@ -34,7 +34,7 @@ def main() -> None:
 
     # Parse the cli arguments.
     parser = argparse.ArgumentParser(
-        prog="Frigate",
+        prog="OrcaCommand",
         description="An NVR with realtime local object detection for IP cameras.",
     )
     parser.add_argument("--validate-config", action="store_true")

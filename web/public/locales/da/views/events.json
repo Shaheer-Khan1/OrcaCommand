@@ -15,9 +15,9 @@
       "title": "Optagelser skal være aktiveret"
     }
   },
-  "documentTitle": "Gennemse - Frigate",
+  "documentTitle": "Gennemse - OrcaCommand",
   "recordings": {
-    "documentTitle": "Optagelser - Frigate"
+    "documentTitle": "Optagelser - OrcaCommand"
   },
   "calendarFilter": {
     "last24Hours": "Sidste 24 timer"

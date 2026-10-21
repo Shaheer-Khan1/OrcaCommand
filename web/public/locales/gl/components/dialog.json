@@ -1,11 +1,11 @@
 {
   "restart": {
-    "title": "Estás seguro/a que queres reiniciar Frigate?",
+    "title": "Estás seguro/a que queres reiniciar OrcaCommand?",
     "button": "Reiniciar",
     "restarting": {
       "button": "Forzar reinicio",
       "content": "Esta páxina recargarase en {{countdown}} segundos.",
-      "title": "Frigate está Reiniciando"
+      "title": "OrcaCommand está Reiniciando"
     }
   },
   "explore": {

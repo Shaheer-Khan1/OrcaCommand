@@ -1,16 +1,16 @@
 {
   "documentTitle": {
-    "cameras": "Cameras Stats - Frigate",
-    "storage": "Storage Stats - Frigate",
-    "general": "General Stats - Frigate",
-    "enrichments": "Enrichments Stats - Frigate",
+    "cameras": "Cameras Stats - OrcaCommand",
+    "storage": "Storage Stats - OrcaCommand",
+    "general": "General Stats - OrcaCommand",
+    "enrichments": "Enrichments Stats - OrcaCommand",
     "logs": {
-      "frigate": "Frigate Logs - Frigate",
-      "go2rtc": "Go2RTC Logs - Frigate",
-      "nginx": "Nginx Logs - Frigate",
-      "websocket": "Messages Logs - Frigate"
+      "frigate": "OrcaCommand Logs - OrcaCommand",
+      "go2rtc": "Go2RTC Logs - OrcaCommand",
+      "nginx": "Nginx Logs - OrcaCommand",
+      "websocket": "Messages Logs - OrcaCommand"
     },
-    "health": "Health - Frigate"
+    "health": "Health - OrcaCommand"
   },
   "title": "System",
   "metrics": "System metrics",
@@ -20,7 +20,7 @@
     "title": "Health",
     "notices": {
       "title": "Notices",
-      "empty": "Your Frigate installation is healthy",
+      "empty": "Your OrcaCommand installation is healthy",
       "acknowledge": "Acknowledge",
       "acknowledgeHint": "Hide until this happens again",
       "mute": "Mute",
@@ -53,10 +53,10 @@
         "ffmpeg_high_cpu": "FFmpeg CPU usage is high ({{cpu}}% average)",
         "detect_high_cpu": "Detection CPU usage is high ({{cpu}}% average)",
         "shm_too_low": "/dev/shm allocation ({{total}} MB) should be increased to at least {{min}} MB",
-        "object_processing_behind": "Tracked object processing could not keep up, so camera frames were dropped. Check CPU utilization, and whether CPU limits or pinning on the container or VM are leaving Frigate too little CPU",
+        "object_processing_behind": "Tracked object processing could not keep up, so camera frames were dropped. Check CPU utilization, and whether CPU limits or pinning on the container or VM are leaving OrcaCommand too little CPU",
         "failed_login_one": "Failed login attempt for {{user}}",
         "failed_login_other": "Failed login attempts for {{user}}",
-        "update_available": "Frigate {{version}} is available"
+        "update_available": "OrcaCommand {{version}} is available"
       },
       "streamPrefix": "Stream {{index}}: {{message}}",
       "streamPrefixRestream": "Stream {{index}} (via go2rtc): {{message}}",
@@ -80,7 +80,7 @@
       "nothingConfigured": "Nothing configured",
       "allCameras": "All cameras",
       "probeUnavailable": "Hardware detection is unavailable",
-      "justStarted": "Frigate just started",
+      "justStarted": "OrcaCommand just started",
       "deviceNotFound": "{{devices}} was not found on this system",
       "detectorNotRunning": "Detector process is not running",
       "inferenceVerySlow": "Inference is very slow ({{speed}} ms)",
@@ -227,7 +227,7 @@
     "overview": "Overview",
     "recordings": {
       "title": "Recordings",
-      "tips": "This value represents the total storage used by the recordings in Frigate's database. Frigate does not track storage usage for all files on your disk.",
+      "tips": "This value represents the total storage used by the recordings in OrcaCommand's database. OrcaCommand does not track storage usage for all files on your disk.",
       "earliestRecording": "Earliest recording available:"
     },
     "shm": {
@@ -247,7 +247,7 @@
       "bandwidth": "Bandwidth",
       "unused": {
         "title": "Unused",
-        "tips": "This value may not accurately represent the free space available to Frigate if you have other files stored on your drive beyond Frigate's recordings. Frigate does not track storage usage outside of its recordings."
+        "tips": "This value may not accurately represent the free space available to OrcaCommand if you have other files stored on your drive beyond OrcaCommand's recordings. OrcaCommand does not track storage usage outside of its recordings."
       },
       "subStream": {
         "information": "Sub Stream Storage Information",

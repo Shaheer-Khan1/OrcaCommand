@@ -1,15 +1,15 @@
 {
   "documentTitle": {
-    "general": "Üldine statistika - Frigate",
-    "cameras": "Kaamerate statistika - Frigate",
-    "storage": "Andmeruumi statistika - Frigate",
+    "general": "Üldine statistika - OrcaCommand",
+    "cameras": "Kaamerate statistika - OrcaCommand",
+    "storage": "Andmeruumi statistika - OrcaCommand",
     "logs": {
-      "frigate": "Frigate logid - Frigate",
-      "go2rtc": "Go2RTC logid - Frigate",
-      "nginx": "Nginx logid - Frigate",
-      "websocket": "Sõnumite logid - Frigate"
+      "frigate": "OrcaCommand logid - OrcaCommand",
+      "go2rtc": "Go2RTC logid - OrcaCommand",
+      "nginx": "Nginx logid - OrcaCommand",
+      "websocket": "Sõnumite logid - OrcaCommand"
     },
-    "enrichments": "Rikastus statistika - Frigate"
+    "enrichments": "Rikastus statistika - OrcaCommand"
   },
   "logs": {
     "download": {
@@ -144,7 +144,7 @@
       "camera": "Kaamera",
       "unused": {
         "title": "Kasutamata",
-        "tips": "See väärtus ei pruugi Frigate'i jaoks saadaolevat vaba ruumi täpselt kajastada, kui teie draivil on lisaks Frigate'i salvestistele ka muid faile. Frigate ei jälgi salvestusruumi kasutamist väljaspool oma salvestisi."
+        "tips": "See väärtus ei pruugi OrcaCommand'i jaoks saadaolevat vaba ruumi täpselt kajastada, kui teie draivil on lisaks OrcaCommand'i salvestistele ka muid faile. OrcaCommand ei jälgi salvestusruumi kasutamist väljaspool oma salvestisi."
       },
       "bandwidth": "Ribalaius",
       "storageUsed": "Salvestusmaht",

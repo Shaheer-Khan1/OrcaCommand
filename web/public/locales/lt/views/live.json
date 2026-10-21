@@ -1,8 +1,8 @@
 {
   "documentTitle": {
-    "default": "Tiesiogiai - Frigate"
+    "default": "Tiesiogiai - OrcaCommand"
   },
-  "documentTitle.withCamera": "{{camera}} - Tiesiogiai - Frigate",
+  "documentTitle.withCamera": "{{camera}} - Tiesiogiai - OrcaCommand",
   "lowBandwidthMode": "Mažo-pralaidumo Rėžimas",
   "cameraAudio": {
     "enable": "Įgalinti Kamerų Garsą",
@@ -174,7 +174,7 @@
   },
   "noCameras": {
     "title": "Nėra Sukonfiguruotų Kamerų",
-    "description": "Pradėti nuo kameros prijungimo pire Frigate.",
+    "description": "Pradėti nuo kameros prijungimo pire OrcaCommand.",
     "buttonText": "Pridėti Kamerą",
     "restricted": {
       "title": "Nėra Prieinamų Kamerų",
@@ -182,7 +182,7 @@
     },
     "default": {
       "title": "Nėra Sukonfiguruotų Kamerų",
-      "description": "Pradėkite nuo kameros prijungimo prie Frigate.",
+      "description": "Pradėkite nuo kameros prijungimo prie OrcaCommand.",
       "buttonText": "Pridėti Kamerą"
     },
     "group": {

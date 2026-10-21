@@ -40,9 +40,9 @@
     "trackedPoint": "Praćena točka",
     "clickToSeek": "Kliknite za pomicanje na ovo vrijeme"
   },
-  "documentTitle": "Pregled - Frigate",
+  "documentTitle": "Pregled - OrcaCommand",
   "recordings": {
-    "documentTitle": "Snimke - Frigate"
+    "documentTitle": "Snimke - OrcaCommand"
   },
   "calendarFilter": {
     "last24Hours": "Zadnja 24 sata"

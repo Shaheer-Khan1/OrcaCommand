@@ -457,7 +457,7 @@ test.describe("UI settings import/export @medium", () => {
 
     await expect(
       frigateApp.page.getByText(
-        "Failed to import settings: file is not a Frigate settings export",
+        "Failed to import settings: file is not an OrcaCommand settings export",
       ),
     ).toBeVisible();
     expect(await readIdb(frigateApp.page, OUTDOOR_LAYOUT_KEY)).toBeNull();
@@ -683,7 +683,7 @@ test.describe("UI settings import/export @medium", () => {
 
     await expect(
       frigateApp.page.getByText(
-        "Failed to import settings: file requires a newer version of Frigate",
+        "Failed to import settings: file requires a newer version of OrcaCommand",
       ),
     ).toBeVisible();
     expect(await readIdb(frigateApp.page, OUTDOOR_LAYOUT_KEY)).toBeNull();

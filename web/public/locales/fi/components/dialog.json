@@ -1,13 +1,13 @@
 {
   "restart": {
-    "title": "Haluatko varmasti käynnistää Frigaten uudelleen?",
+    "title": "Haluatko varmasti käynnistää OrcaCommandn uudelleen?",
     "button": "Uudelleenkäynnistys",
     "restarting": {
       "title": "Fregatti käynnistyy uudelleen",
       "content": "Tämä sivu latautuu uudelleen {{countdown}} sekunnin kuluttua.",
       "button": "Pakota uudelleenlataus nyt"
     },
-    "description": "Tämä sammuttaa Frigaten lyhyeksi aikaa uudelleenkäynnistyksen ajaksi."
+    "description": "Tämä sammuttaa OrcaCommandn lyhyeksi aikaa uudelleenkäynnistyksen ajaksi."
   },
   "explore": {
     "plus": {

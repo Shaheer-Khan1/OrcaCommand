@@ -1,13 +1,13 @@
 {
   "documentTitle": {
-    "cameras": "Štatistiky kamier - Frigate",
-    "storage": "Štatistiky úložiska - Frigate",
-    "general": "Všeobecné štatistiky - Frigate",
-    "enrichments": "Štatistiky AI funkcií - Frigate",
+    "cameras": "Štatistiky kamier - OrcaCommand",
+    "storage": "Štatistiky úložiska - OrcaCommand",
+    "general": "Všeobecné štatistiky - OrcaCommand",
+    "enrichments": "Štatistiky AI funkcií - OrcaCommand",
     "logs": {
-      "frigate": "Protokoly Frigate - Frigate",
-      "go2rtc": "Protokoly Go2RTC - Frigate",
-      "nginx": "Protokoly Ngnix - Frigate"
+      "frigate": "Protokoly OrcaCommand - OrcaCommand",
+      "go2rtc": "Protokoly Go2RTC - OrcaCommand",
+      "nginx": "Protokoly Ngnix - OrcaCommand"
     }
   },
   "title": "System",
@@ -95,7 +95,7 @@
     "overview": "Prehľad",
     "recordings": {
       "title": "Nahrávky",
-      "tips": "Táto hodnota predstavuje celkové úložisko, ktoré používajú nahrávky v databáze Frigate. Frigate nesleduje využitie úložiska pre všetky súbory na vašom disku.",
+      "tips": "Táto hodnota predstavuje celkové úložisko, ktoré používajú nahrávky v databáze OrcaCommand. OrcaCommand nesleduje využitie úložiska pre všetky súbory na vašom disku.",
       "earliestRecording": "Najstaršia dostupná nahrávka:"
     },
     "shm": {
@@ -111,7 +111,7 @@
       "bandwidth": "Šírka pásma",
       "unused": {
         "title": "Nepoužité",
-        "tips": "Táto hodnota nemusí presne zodpovedať voľnému miestu dostupnému pre Frigate, ak máte na disku uložené aj iné súbory okrem nahrávok Frigate. Frigate nesleduje využitie úložiska mimo svojich nahrávok."
+        "tips": "Táto hodnota nemusí presne zodpovedať voľnému miestu dostupnému pre OrcaCommand, ak máte na disku uložené aj iné súbory okrem nahrávok OrcaCommand. OrcaCommand nesleduje využitie úložiska mimo svojich nahrávok."
       }
     }
   },

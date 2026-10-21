@@ -84,7 +84,7 @@ test.describe("Error boundaries - page failure @high", () => {
 
     await expect
       .poll(() => readClipboard(frigateApp.page), { timeout: 5_000 })
-      .toContain("Frigate UI crash report");
+      .toContain("OrcaCommand UI crash report");
 
     const report = await readClipboard(frigateApp.page);
     expect(report).toContain("Version: 0.15.0-test");

@@ -1,13 +1,13 @@
 {
   "restart": {
-    "title": "Jste si jistí, že chcete restartovat Frigate?",
+    "title": "Jste si jistí, že chcete restartovat OrcaCommand?",
     "button": "Restartovat",
     "restarting": {
-      "title": "Frigate restartuje",
+      "title": "OrcaCommand restartuje",
       "content": "Tato stránka se znovu načte za {{countdown}} s.",
       "button": "Vynutit opětovné načtení"
     },
-    "description": "Frigate bude během restartu krátce nedostupný."
+    "description": "OrcaCommand bude během restartu krátce nedostupný."
   },
   "explore": {
     "plus": {
@@ -55,10 +55,10 @@
     "shareTimestamp": {
       "label": "Sdílet časovou značku",
       "title": "Sdílet časovou značku",
-      "description": "Sdílejte URL s časovou značkou aktuální pozice přehrávače nebo vyberte vlastní časovou značku. Nejde o veřejný odkaz; je přístupný pouze uživatelům s přístupem k Frigate a této kameře.",
+      "description": "Sdílejte URL s časovou značkou aktuální pozice přehrávače nebo vyberte vlastní časovou značku. Nejde o veřejný odkaz; je přístupný pouze uživatelům s přístupem k OrcaCommand a této kameře.",
       "custom": "Vlastní časová značka",
       "button": "Sdílet URL s časovou značkou",
-      "shareTitle": "Časová značka revize Frigate: {{camera}}"
+      "shareTitle": "Časová značka revize OrcaCommand: {{camera}}"
     },
     "genaiDescription": {
       "toast": {

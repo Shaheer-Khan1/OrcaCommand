@@ -3,8 +3,11 @@ import Logo from "@/components/Logo";
 import { ThemeProvider } from "@/context/theme-provider";
 import "@/utils/i18n";
 import { LanguageProvider } from "@/context/language-provider";
+import { useTranslation } from "react-i18next";
 
 function LoginPage() {
+  const { t } = useTranslation(["common"]);
+
   return (
     <ThemeProvider defaultTheme="system" storageKey="frigate-ui-theme">
       <LanguageProvider>
@@ -12,7 +15,11 @@ function LoginPage() {
           <div className="p-8">
             <div className="mx-auto flex w-full flex-col justify-center space-y-6 sm:w-[350px]">
               <div className="flex flex-col items-center space-y-2">
-                <Logo className="mb-6 h-8 w-8" />
+                <Logo className="mb-2 h-10 w-10" />
+                <h1 className="text-xl font-semibold">{t("brand.name")}</h1>
+                <p className="text-sm text-muted-foreground">
+                  {t("brand.owner")}
+                </p>
               </div>
               <UserAuthForm />
             </div>

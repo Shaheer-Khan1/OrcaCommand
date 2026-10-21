@@ -1,8 +1,8 @@
-<p align="center">
-  <img align="center" alt="logo" src="docs/static/img/branding/frigate.png">
-</p>
+# OrcaCommand
 
-# Frigate NVR™ - Realtime Object Detection for IP Cameras
+Realtime object detection for IP cameras. Owned by OrcaTechnologies.
+
+OrcaCommand is based on Frigate NVR. The code is used under the MIT License. Copyright (c) 2026 Frigate, Inc. The Frigate name and logo are trademarks of Frigate, Inc. and are not used by OrcaCommand.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -14,7 +14,7 @@
 
 A complete and local NVR designed for [Home Assistant](https://www.home-assistant.io) with AI object detection. Uses OpenCV and Tensorflow to perform realtime object detection locally for IP cameras.
 
-Use of a GPU or AI accelerator is highly recommended. AI accelerators will outperform even the best CPUs with very little overhead. See Frigate's supported [object detectors](https://docs.frigate.video/configuration/object_detectors/).
+Use of a GPU or AI accelerator is highly recommended. AI accelerators will outperform even the best CPUs with very little overhead. See the supported [object detectors](https://docs.frigate.video/configuration/object_detectors/).
 
 - Tight integration with Home Assistant via a [custom component](https://github.com/blakeblackshear/frigate-hass-integration)
 - Designed to minimize resource use and maximize performance by only looking for objects when and where it is necessary
@@ -37,12 +37,13 @@ If you would like to make a donation to support development, please use [Github 
 
 ## License
 
-This project is licensed under the **MIT License**.
+The software is licensed under the **MIT License**. Copyright (c) 2026 Frigate, Inc.
 
 - **Code:** The source code, configuration files, and documentation in this repository are available under the [MIT License](LICENSE). You are free to use, modify, and distribute the code as long as you include the original copyright notice.
-- **Trademarks:** The "Frigate" name, the "Frigate NVR" brand, and the Frigate logo are **trademarks of Frigate, Inc.** and are **not** covered by the MIT License.
+- **OrcaCommand** is owned by OrcaTechnologies.
+- **Trademarks:** The "Frigate" name, the "Frigate NVR" brand, and the Frigate logo are **trademarks of Frigate, Inc.** and are **not** covered by the MIT License. OrcaCommand does not use those marks.
 
-Please see our [Trademark Policy](TRADEMARK.md) for details on acceptable use of our brand assets.
+Please see the [Trademark Policy](TRADEMARK.md) for the Frigate marks.
 
 ## Screenshots
 
@@ -80,4 +81,6 @@ We use [Weblate](https://hosted.weblate.org/projects/frigate-nvr/) to support la
 
 ---
 
-**Copyright © 2026 Frigate, Inc.**
+**OrcaCommand** is owned by OrcaTechnologies.
+
+The underlying software is copyright (c) 2026 Frigate, Inc. and used under the MIT License.
